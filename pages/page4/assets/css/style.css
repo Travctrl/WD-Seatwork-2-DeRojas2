@@ -1,0 +1,111 @@
+/* 🧼 Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #0d0d0d;
+  color: #f0f0f0;
+}
+
+/* 🌐 Header */
+header {
+  width: 100%;
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: transparent;
+  backdrop-filter: blur(5px);
+  z-index: 1000;
+}
+
+header h1 {
+  font-size: 1.5rem;
+  color: #f04;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+nav a {
+  color: #f0f0f0;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #ff3366;
+}
+
+/* 🕷️ Hero Section */
+main.peter-container {
+  display: flex;
+  margin-top: 100px; /* space under fixed header */
+  height: calc(100vh - 100px);
+  padding: 2rem;
+  gap: 2rem;
+}
+
+/* Hero Left Section */
+.hero-left {
+  flex: 1;
+  padding: 2rem;
+  background-color: #1a1a1a;
+  border-radius: 16px;
+  box-shadow: 0 0 10px rgba(255, 0, 100, 0.4);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  .description {
+    font-size: 1.5rem;
+    color: #ccc;
+    line-height: 1.5;
+    font-weight: 300;
+    margin-top: 5rem;
+    text-align: center;
+  }
+  
+}
+
+.hero-left .title {
+
+  font-size: 2rem;
+  color: #ff3366;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+.hero-left .subtitle {
+  font-size: 1.2rem;
+  color: #ccc;
+  margin-bottom: 1.5rem;
+  font-weight: 300;
+  text-align: center;
+}
+
+
+
+
+.hero-img {
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+}
+
+
+
