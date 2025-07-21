@@ -125,6 +125,6 @@ WD-Seatwork-2-DeRojas2
 
 | Title | Purpose | Link | 
 |-|-|-|
-| SeatWork 2 | 5 HERO SECTION |  | 
+| SeatWork 2 | 5 HERO SECTION |https://travctrl.github.io/WD-Seatwork-2-DeRojas2/| 
 
 
