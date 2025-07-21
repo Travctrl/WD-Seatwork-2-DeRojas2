@@ -123,8 +123,10 @@ WD-Seatwork-2-DeRojas2
 
 ## Resources
 
-| Title | Purpose | Link | 
-|-|-|-|
-| SeatWork 2 | 5 HERO SECTION |  | 
+| Title             | Purpose                                  | Link                                                         |
+|-------------------|------------------------------------------|--------------------------------------------------------------|
+| Google Images     | Sourcing images for drawings and previews| [https://images.google.com](https://images.google.com)       |
+| GitHub Pages      | Website hosting and deployment            | [https://pages.github.com](https://pages.github.com)         |
+| Visit Counter     | Page view counter in README               | [https://visit-counter.vercel.app](https://visit-counter.vercel.app) |
 
 
